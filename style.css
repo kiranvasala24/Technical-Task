@@ -1,0 +1,178 @@
+header {
+    box-shadow: 1 3px 6px rgba(5, 10, 5, 10);
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  @media (max-width: 767px) {
+    header {
+      padding: 10px 0;
+    }
+    .navbar-brand {
+      font-size: 20px;
+    }
+    .navbar-nav .nav-item .nav-link {
+      padding: 5px 10px;
+    }
+  
+  }
+  #slider {
+    margin-top: 50px;
+  }
+  
+  .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-caption {
+    bottom: 0;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 36px;
+  }
+  
+  .carousel-caption p {
+    font-size: 24px;
+  }
+  section {
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: darkgoldenrod;
+  }
+  h4{
+    color: rgb(134, 115, 26);
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .card-deck {
+    margin-top: 50px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  .modal-body {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .whatsapp-section {
+  
+    padding: 50px 0;
+  }
+  
+  .whatsapp-section h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .whatsapp-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .whatsapp-section {
+      padding: 30px 0;
+    }
+  
+    .whatsapp-section h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .whatsapp-section p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+  .floating-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .floating-button button {
+    width: 50px;
+    height: 50px;
+    color: antiquewhite;
+  }
+  
+  @media (max-width: 767px) {
+    .floating-button {
+      bottom: 10px;
+      right: 10px;
+    }
+  
+    .floating-button button {
+      width: 40px;
+      height: 40px;
+      color: antiquewhite;
+    }
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    
+  }
+  
+  .footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 25px;
+  }
+  
+  .footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: auto;
+  }
+  
+  .footer ul li {
+    margin-bottom: 20px;
+    
+  }
+  
+  .footer ul li a {
+    color: #fff;
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      padding: 30px 0;
+    }
+  
+    .footer h4 {
+      font-size: 18px;
+    }
+  
+    .footer ul li {
+      margin-bottom: 5px;
+    }
+  }
+  
